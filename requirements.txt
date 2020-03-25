@@ -1,0 +1,4 @@
+torch==1.4.0
+netwrokx==2.4
+numpy==1.1.18
+pandas=1.0.3
