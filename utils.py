@@ -24,7 +24,7 @@ def create_Graphs_with_attributes(edgelist_filepath,attributes_filepath):
 
 
 def create_train_test(graph):
-    X_train,Y_train,X_test,Y_test=[],[],[],[]
+    X_train,Y_train,X_test,Y_test=[],[],[],[],[]
     for node, data in graph.nodes(data=True):
         if data['role'] in ['Administrator','Instructor']:
             X_train.append(node)
